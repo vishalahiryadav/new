@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "poodles-8da8a"
+  },
+  "targets": {
+    "poodles-8da8a": {
+      "hosting": {
+        "poodles-partner": [
+          "poodles-partner"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
