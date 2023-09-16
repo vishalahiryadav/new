@@ -1,0 +1,328 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 6px;
+    }
+
+    /* header */
+    .header {
+        border: 1px solid black;
+    }
+
+    .navbar-brand>svg {
+        max-width: 16rem;
+        max-height: 5.5rem;
+    }
+    .navbar>.btn {
+         padding: 1rem 5rem;
+      }
+    /* sectrion 1 */
+    .section_1{
+        max-width: 90vw;
+        float: none; 
+         margin-right: auto;
+        margin-left: auto;
+ 
+    }
+    .left_side {
+        padding: 5rem 10rem;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid black;
+    }
+    .second_div_img {
+        border: 1px solid black;
+        max-width:fit-content;
+        margin: 1rem 0rem;
+        align-items: center;
+    }
+
+    /* section 2 */
+    .section_2 {
+        padding: 50px 3rem;
+    }
+
+    /* section 3 */
+    .adoption {
+        padding: 12px;
+    }
+
+    /* section 4 */
+    .connection h4,
+    .connection p {
+        text-align: center;
+    }
+
+    .img_with_text {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* section 5 */
+    .section_5{
+        border: 1px solid black;
+        border-radius: 0;
+    }
+    .all {
+        align-items: center;
+        text-align: center;
+        padding: 8rem 12rem;
+        gap: 2rem;
+    }
+
+    .panja_img {
+        display: none;
+    }
+
+    .connect {
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .section_5 input {
+        width: 30rem;
+        height: 4rem;
+    }
+
+    .section_5 button {
+        width: 18rem;
+        height: 5.5rem;
+        font-size: 2.5rem;
+        padding: 0;
+    }
+    /* footer */
+    .footer_section_right{
+        align-items: center;
+        padding: 0;
+    }
+    .footer_section_right h4 {
+        margin-right: -1.0rem;
+
+      }
+      .footer_section_left{
+        align-items: center;
+        text-align: center;
+        padding: 3rem 15rem;
+        gap: 2rem;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and (max-width: 768px) {
+    html {
+        font-size: 6.5px;
+    }
+
+    body {
+        background: tan;
+    }
+/* header */
+    .header {
+        border: 1px solid black;
+    }
+
+    .navbar-brand>svg {
+        max-width: 23rem;
+        max-height: 5.5rem;
+    }
+
+    /* section_1 */
+    .left_side {
+        border: 1px solid black;
+        align-items: center;
+        text-align: center;
+        width: 95vw;
+        margin: 1rem 2.5rem;
+        padding: 4rem 17rem;
+    }
+
+    .img-fluid {
+        border: 1px solid black;
+        width: 95vw;
+        margin: 1rem 0rem;
+    }
+
+    /* section_4 */
+    .img_with_text {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .connection h4,
+    .connection p {
+        text-align: center;
+    }
+
+    /* section 5 */
+    .all {
+        align-items: center;
+        text-align: center;
+        padding: 6rem 22rem;
+        gap: 2rem;
+    }
+
+    .panja_img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .connect {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .section_5 h2 {
+        padding: 0;
+    }
+
+    .section_5 input {
+        width: 35rem;
+        height: 4rem;
+    }
+
+    .section_5 button {
+        width: 12rem;
+        height: 3.9rem;
+        font-size: 2rem;
+        padding: 0;
+    }
+    /* footer */
+    .footer_section_right{
+        align-items: center;
+        padding: 0;
+    }
+    .footer_section_right h4 {
+        margin-right: -1.0rem;
+
+      }
+      .footer_section_left{
+        align-items: center;
+        text-align: center;
+        padding: 3rem 25rem;
+        gap: 2rem;
+      }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    html {
+        font-size: 7.5px;
+    }
+
+    body {
+        background: yellowgreen;
+    }
+
+    /* header */
+
+    /* section 1 */
+    .left_side {
+        padding: 7.5rem 3rem 4rem 7rem;
+        gap: 1.5rem
+    }
+
+    /* section_2 */
+    .section_2 {
+        padding: 3.5rem 8.4rem
+    }
+
+    /* section 5 */
+    .all {
+        padding: 7rem 9rem 3rem 13rem;
+        gap: 1.5rem;
+    }
+
+    .panja_img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .section_5 input {
+        width: 42rem;
+    }
+    .sign_up_img {
+        max-width: 97%;
+    }
+    table{
+        width: 65%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    html {
+        font-size: 8.2px;
+    }
+
+    body {
+        background: orange;
+    }
+
+    /* section_1 */
+    .left_side {
+        padding: 8.5rem 3rem 4rem 7rem;
+        gap: 2.5rem;
+    }
+
+    /* section_2 */
+    .section_2 {
+        padding: 3.5rem 11.4rem
+    }
+
+    /* section_5 */
+    .all {
+        padding: 6rem 18rem 4rem 22rem;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        background: white;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+    html {
+        font-size: 10px;
+    }
+body {
+        /* background: rgb(43, 172, 150); */
+    }
+    /* section_1 */
+    .left_side {
+        padding: 11.5rem 10rem 6rem 7rem;
+    }
+
+    /* section_2 */
+    .section_2 {
+        padding: 3.5rem 20.4rem
+    }
+
+    /* section_5 */
+    .all {
+        padding: 6rem 41rem 4rem 22rem;
+        gap: 2.5rem;
+    }
+
+    /* footer */
+    .footer_section_left {
+        padding-right: 29rem;
+    }
+}
+
+
+/* xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px 
+  xxxl: 1400px <*/
