@@ -1,0 +1,571 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  text-align: center;
+  font-size: 9.5px;
+  vertical-align: center;
+}
+
+*,
+.btn,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  line-height: normal;
+  color: #343030;
+  font-size: 2.6rem;
+  font-family: "Montserrat";
+}
+p {
+  font-size: 2rem;
+}
+
+/* Header */
+.navbar {
+  padding: 1% 1.5%;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.navbar .btn {
+  background: #d3db50;
+  padding: 1rem 8rem;
+}
+
+/* section_1 */
+.left_side {
+  display: inline-flex;
+  padding: 5.5rem 2.5rem 5.5rem 5.5rem;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  gap: 3.5rem
+}
+.left_side_1 {
+  font-size: 3rem;
+}
+.left_side_3signup {
+  padding: 1rem 6rem;
+  max-width: 27.5rem;
+  background-color: #162a51;
+}
+
+/* section-2 */
+.section_2 {
+  display: inline-flex;
+  padding: 3.5rem 14.4rem;
+  gap: 1rem;
+  background: #162a51;
+}
+
+/* section-3 */
+
+.section_3 {
+  padding: 2.6rem 3.9rem;
+  border: 0.1rem solid #3a383b;
+}
+.section_3>h3 {
+  font-weight: 500;
+  margin-bottom: 4.5rem;
+}
+.adoption h3 {
+  color: #162a51;
+  margin-bottom: 1.5rem;
+}
+.card_box_1 {
+  padding: 1rem 3rem 1rem 3rem;
+}
+
+/* section-4 */
+
+.section_4 {
+  padding: 2.7rem 2.1rem;
+}
+.section_4 h3 {
+  font-weight: 500;
+  margin-bottom: 4.5rem;
+}
+.motive {
+  border-radius: 8.4rem;
+  border: 0.1rem solid #343030;
+  background: #162a51;
+  display: flex;
+  width: 11.1rem;
+  height: 11.1rem;
+  padding: 1.8rem;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2.5rem;
+  margin-top: 2.5rem;
+}
+.img_with_text {
+  display: flex;
+}
+.connection h4 {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.connection p {
+  max-width: 46rem;
+  text-align: left;
+  margin-bottom: 4.8rem;
+}
+
+/* section-5 */
+
+.section_5 {
+  border-radius: 0.3rem;
+  margin: 4.7rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background-color: #d3db50;
+}
+.all {
+  padding: 5.3rem 28rem 4.3rem 16rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.connect{
+  display: flex;
+}
+.section_5 h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+.section_5 input {
+  width: 45.8rem;
+  height: 4.6rem;
+  padding: 1rem;
+}
+.section_5 button {
+  color: #fff;
+  padding: 0rem 6rem;
+  background-color: #162a51;
+  margin-left: 0.5rem;
+}
+
+/* footer */
+
+.footer {
+  background-color: #162a51;
+  padding: 2.0rem;
+  color: #fff;
+  margin: 0rem;
+}
+.footer_section_left {
+  text-align: left;
+  padding: 2rem 19rem 1rem 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  color: #fff;
+}
+.footer_section_left h1 {
+  font-weight: 600;
+  color: #fff;
+}
+.footer_section_left p {
+  color: #fff;
+}
+.contact>strong {
+  color: #fff;
+  font-weight: 100;
+}
+.footer_section_right {
+  align-items: end;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3.5rem 1.5rem 0rem 0rem;
+  gap: 2rem;
+}
+.footer_section_right h4 {
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+  margin-right: 3.0rem;
+  color: #fff;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.input_container>input {
+  width: 38.5rem;
+  height: 4.5rem;
+}
+.footer_section_right button {
+  background-color: #d3db50;
+  color: #fff;
+  max-width: 18.5rem;
+  font-size: 2rem;
+  margin-left: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+.copyright {
+  color: #fff;
+  background-color: #162a51;
+  font-size: 1.6rem;
+  padding-top: 1.4rem;
+  font-weight: 100;
+}
+
+
+/* Sign Up NGO*/
+
+.sign_up_form{
+  margin:2rem 4rem;
+}
+.left_img_container{
+  max-width: 50%;
+}
+.sign_up_img {
+  width:87%;
+}
+.sign_up_right_section {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+}
+.sign_up_right_section > .input_box{
+  width: 75%;
+  font-size: 2.2rem;
+}
+input::placeholder {
+  text-align: center;
+  font-size: 1.8rem;
+
+}
+.sign_up_right_section>h1 {
+  font-weight: 600;
+  font-size: 3.4rem;
+  align-self: start;
+  margin-left: 8.5rem;
+}
+.sign_up_right_section  .img-fluid{
+  max-width: 67%;
+}
+
+/* input_checkbox */
+
+.input_checkbox{
+  margin: 0rem 1.5rem 0rem 0rem;
+}
+.term{
+  font-size: 1.2rem;
+}
+/* sign up button */
+.create_account_button{
+  width: 70%;
+  padding: 0.8rem 7rem;
+  background: #D3DB50;
+  border: 0;
+  font-size: 2rem;
+}
+/* USERS sign up */
+
+
+.google_signup_button > svg {
+  margin-right: 1rem;
+}
+.google_signup_button {
+  font-size: 2.6rem;
+  display: inline-flex;
+  padding: 1.4rem 0rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background: #F5F5F5;
+  border: 0;
+  width: 70%;
+}
+
+
+/* DASHBOARD */
+
+
+/* Header */
+
+
+/* Sidebar */
+.sidebar {
+  width: 16%;
+  position: fixed;
+  z-index: 1;
+  top: 9rem;
+  left: 0;
+  display: flex;
+  padding: 1% 2.5%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.8rem;
+  height: 100%;
+  background-color: #fff;   
+  overflow-x: hidden;
+
+}
+
+.sidebar button {
+  font-weight: 500;
+}
+
+.sidebar_point button {
+
+  padding: 0;
+  background-color: #fff;
+  border: none;
+}
+/* dashboard */
+
+.main_area {
+  /* height: 100%; */
+
+  width: 82%;
+  background: #F2EDFB;
+  margin-left: 17%;
+  padding:2% 1%;
+  position:absolute;
+  z-index: -1;
+  top: 10rem;
+}
+.address{
+  width: 45%;
+  margin-right: 4%;
+}
+.address h3 {
+  font-weight: 700;
+  text-align: left;
+}
+
+.address_box {
+  /* width: 90%; */
+  height: 21rem;
+  padding: 2rem 7rem;
+  background: #162A51;
+  font-size: 0.8rem;
+  text-align: justify;
+}
+
+.address_box p {
+  color: #FFF;
+}
+.group_of_long_tab{
+  width: 47%;
+}
+.long_tab {
+  width: 100%;
+  height: 5.0rem;
+  padding: 1rem;
+  background-color: #fff;
+  margin: 0;
+}
+.main_area_bottom{
+  width: 82%;
+  background: #F2EDFB;
+  margin-left: 17%;
+
+  position:absolute;
+  z-index: -1;
+  top: 40.6rem;
+}
+
+.topic_heading {
+  text-align: left;
+}
+.quick_actions_button{
+  margin: 0% 8% 0% 1%;
+}
+.short_tab {
+  background-color: #fff;
+  padding: 1rem 3rem;
+ cursor: pointer;
+ margin: 2rem 0rem;
+}
+.ngoPets{
+  text-align: left;
+  padding: 0rem 7rem 0rem 2rem;
+}
+.adopted, .pending_adoption, .ngoPets > button{
+  background-color: #fff;
+  width: 92%;
+  height: 12rem;
+  margin: 0 auto;
+}
+/* NGO PETS */
+
+.ngoPets > .short_tab{
+  background-color: #654;
+  width: 88%;
+  border: none;
+  margin: 1rem;
+  height: 5.0rem;
+  padding: 1rem;
+
+}
+table{
+  width: 90%;
+}
+
+td, th {
+  text-align: left;
+  padding: 8px;
+}
+th{
+  color: #fff;
+  background-color: #162A51;
+}
+td{
+
+}
+tr:nth-child(even) {
+  background-color: #e7dbff;
+}
+
+.pagination_container button{
+background-color: #fff;
+padding: 0.5rem 1.5rem;
+border-radius: 1rem;
+margin: 1rem;
+}
+button :hover {
+  background-color: yellow;
+}
+/* Booking */
+.contact_box{
+
+}
+.contact_us_button{
+  width: 78%;
+padding: 1.5rem 1rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: none;
+background-color: #fff;
+}
+
+.ngo_discription{
+display: flex;
+width: 75%;
+height: 12rem;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: none;
+background-color: #fff;
+}
+textarea::placeholder{
+text-align: center;
+}
+.a{
+  display: flex;
+width: 42rem;
+height: 5rem;
+padding: 1rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: none;
+background: #FFF;
+margin: 3rem;
+
+}
+.b{
+  margin: 3rem;
+  display: flex;
+width: 20rem;
+height: 5rem;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border: none;
+background-color:#162A51;
+}
+.Adoption_request h2,.Pet-id h2{
+  padding: 2rem 0rem 1rem 0rem;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+.Pet_details{
+  text-align: left;
+}
+.note{
+  font-size: 1.2rem;
+}
+/*single pet view pop up model*/
+.message-popup-model {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.message-popup-model-content {
+  padding: 1rem;
+  border-radius: 6px;
+  width: 44rem;
+  margin: auto;
+  text-align: center;
+  background-color: darkgrey;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 0rem;
+}
+button.delete_pet_button {
+  padding: 2px;
+  border: none;
+  margin: 10px;
+  width: 10rem;
+  border-radius: 3px;
+  background: white;
+}
+/*single pet view pop up model*/
+
+*loader screen start here*/
+#loading-screen {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  }
+  .loading-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+    border-top-color: #8D4DF4;
+    animation: spin 1s linear infinite;
+    }
+    
+    @keyframes spin {
+    to { transform: rotate(360deg); }
+    }
+    /*loader screen ends here*/
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+  }
+  /* loading screen ends here*/
